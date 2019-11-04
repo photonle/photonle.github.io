@@ -36,8 +36,25 @@
 
 body {
   font-family: EurostileNextPro-ExtBold;
+  font-weight: normal;
+	font-style: normal;
   font-size: 16px;
   color: #FFF;
+}
+
+h1 {
+  text-transform: uppercase;
+}
+
+h2 {
+
+}
+
+.sub-head {
+  font-family: EurostileNextPro-SemiBold;
+	font-weight: normal;
+	font-style: normal;
+  text-transform: uppercase;
 }
 
 a {
@@ -59,6 +76,8 @@ a {
 
 .nav-wrapper a.logo {
   font-family: EurostileNextPro-ExtBold;
+  font-weight: normal;
+	font-style: normal;
   font-size: 1.25rem;
   text-transform: uppercase;
   margin-right: auto;
@@ -72,6 +91,8 @@ a {
   text-transform: uppercase;
   font-size: 0.75rem;
   font-family: EurostileNextPro-Bold;
+  font-weight: normal;
+	font-style: normal;
 }
 
 .nav-wrapper a:not(:first-child) {
@@ -124,4 +145,12 @@ a {
   background: #000;
   display: flex;
   justify-content: center;
+  box-sizing: border-box;
+  padding-bottom: 8vh;
+}
+
+.hero-bg .wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
 }
