@@ -132,7 +132,14 @@ a {
   margin-bottom: 3rem;
 }
 
-.heading img:after {
+.plus-icon {
+  position: relative;
+  width: 8px;
+  height: 8px;
+  background-image: url('../img/icons/plus.svg');
+}
+
+.plus-icon:after {
   content: '';
   display: block;
   position: absolute;
