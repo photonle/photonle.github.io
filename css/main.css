@@ -100,3 +100,7 @@ a {
 .nav-wrapper a:not(:first-child) {
   margin: 0 1rem;
 }
+
+.nav-wrapper a:last-child {
+  margin-right: 0;
+}
