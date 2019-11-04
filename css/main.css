@@ -98,7 +98,13 @@ a {
 }
 
 .nav-wrapper a:not(:first-child) {
-  margin: 0 1rem;
+  margin: 0 2rem;
+  transition: 1s cubic-bezier(.23,1,.32,1);
+}
+
+.nav-wrapper a:not(:first-child):hover {
+  top: -5px;
+  transition: 1s cubic-bezier(.23,1,.32,1);
 }
 
 .nav-wrapper a:last-child {
