@@ -147,6 +147,7 @@ a {
   background-size: 8px;
   background-position: center;
   background-repeat: no-repeat;
+  margin-left: 1.5rem;
 }
 
 .plus-icon:before {
@@ -171,7 +172,7 @@ a {
   background-position: center;
   background-repeat: no-repeat;
   transition: 1s cubic-bezier(.23,1,.32,1);
-  animation: load-spin 1s infinite;
+  animation: load-spin 2s infinite;
 }
 
 .play-btn {
