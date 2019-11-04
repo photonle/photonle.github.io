@@ -47,11 +47,10 @@ a {
 
 
 
-/*   HERO   */
-.hero-bg {
+/*   NAVIGATION   */
+.nav-bg {
+  position: fixed;
   width: 100%;
-  height: 100vh;
-  background: #000;
   display: flex;
   justify-content: center;
 }
@@ -60,6 +59,17 @@ a {
   font-family: EurostileNextPro-ExtBold;
   font-size: 2rem;
   text-transform: uppercase;
+}
+
+
+
+/*   HERO   */
+.hero-bg {
+  width: 100%;
+  height: 100vh;
+  background: #000;
+  display: flex;
+  justify-content: center;
 }
 
 
