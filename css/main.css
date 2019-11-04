@@ -151,6 +151,7 @@ a {
   font-family: EurostileNextPro-Bold;
   font-weight: normal;
   font-style: normal;
+  transition: 1s cubic-bezier(.23,1,.32,1);
   transition-delay: .2s;
 }
 
