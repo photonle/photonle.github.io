@@ -94,6 +94,8 @@ a {
   border-left: 1px solid rgba(255, 255, 255, 0.5);
   margin-left: .25rem;
   text-transform: lowercase;
+  color: #FFF;
+  transition: 1s cubic-bezier(.23,1,.32,1);
 }
 
 .nav-wrapper a:not(:first-child):hover .le-num {
