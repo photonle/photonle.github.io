@@ -162,6 +162,12 @@ a {
   height: 75px;
 }
 
+.play-btn:hover .play-circle:after {
+  background-size: 10px;
+  transition: 1s cubic-bezier(.23,1,.32,1);
+  transition-delay: .2s;
+}
+
 .play-circle:after {
   content: '';
   display: block;
