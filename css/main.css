@@ -138,13 +138,25 @@ a {
   height: 30px;
   background-image: url('../img/icons/plus.svg');
   background-size: 8px;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.plus-icon:before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border: 2px solid #fff;
+  border-radius: 50%;
+  opacity: .2;
 }
 
 .plus-icon:after {
   content: '';
-  display: block;
   position: absolute;
-  top: 0;
   width: 100%;
   height: 100%;
   background-image: url('../img/icons/gradient-circle.svg');
