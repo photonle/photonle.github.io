@@ -98,12 +98,13 @@ a {
 }
 
 .nav-wrapper a:not(:first-child) {
-  margin: 0 2rem;
+  margin: 0 1rem;
+  padding: .5rem 1rem;
   transition: 1s cubic-bezier(.23,1,.32,1);
 }
 
 .nav-wrapper a:not(:first-child):hover {
-  top: -5px;
+  color: #e62541;
   transition: 1s cubic-bezier(.23,1,.32,1);
 }
 
