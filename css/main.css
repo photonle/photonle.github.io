@@ -85,7 +85,7 @@ a {
   justify-content: center;
 }
 
-.nav-wrapper a:first-child {
+.nav-wrapper a:nth-child(2) {
   margin-left: auto;
 }
 
