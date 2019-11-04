@@ -112,7 +112,7 @@ a {
 .hero-bg {
   width: 100%;
   height: 100vh;
-  background: #000;
+  background: #05080e;
   display: flex;
   justify-content: center;
   box-sizing: border-box;
@@ -123,4 +123,12 @@ a {
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
+}
+
+.play-btn span {
+  text-transform: uppercase;
+  font-size: 0.75rem;
+  font-family: EurostileNextPro-Bold;
+  font-weight: normal;
+  font-style: normal;
 }
