@@ -1,39 +1,3 @@
-.EurostileNextPro-Light {
-	font-family: EurostileNextPro-Light;
-	font-weight: normal;
-	font-style: normal;
-}
-.EurostileNextPro-Regular {
-	font-family: EurostileNextPro-Regular;
-	font-weight: normal;
-	font-style: normal;
-}
-.EurostileNextPro-SemiBold {
-	font-family: EurostileNextPro-SemiBold;
-	font-weight: normal;
-	font-style: normal;
-}
-.EurostileNextPro-Bold {
-	font-family: EurostileNextPro-Bold;
-	font-weight: normal;
-	font-style: normal;
-}
-.EurostileNextPro-Ext {
-	font-family: EurostileNextPro-Ext;
-	font-weight: normal;
-	font-style: normal;
-}
-.EurostileNextPro-ExtSmBd {
-	font-family: EurostileNextPro-ExtSmBd;
-	font-weight: normal;
-	font-style: normal;
-}
-.EurostileNextPro-ExtBold {
-	font-family: EurostileNextPro-ExtBold;
-	font-weight: normal;
-	font-style: normal;
-}
-
 body {
   font-family: EurostileNextPro-ExtBold;
   font-weight: normal;
@@ -43,7 +7,7 @@ body {
 }
 
 h1 {
-  font-family: EurostileNextPro-Ext;
+  font-family: EurostileNextPro-Wide;
 	font-weight: normal;
 	font-style: normal;
   text-transform: uppercase;
