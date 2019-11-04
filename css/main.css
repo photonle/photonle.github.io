@@ -125,10 +125,22 @@ a {
   justify-content: flex-end;
 }
 
+.play-btn {
+  position: relative;
+}
+
 .play-btn span {
   text-transform: uppercase;
   font-size: 0.75rem;
   font-family: EurostileNextPro-Bold;
   font-weight: normal;
   font-style: normal;
+}
+
+.play-btn .play-circle {
+  position: absolute;
+  top: -27px;
+  left: 64px;
+  width: 70px;
+  height: 70px;
 }
