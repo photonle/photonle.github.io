@@ -138,13 +138,20 @@ a {
   transition: 1s cubic-bezier(.23,1,.32,1);
 }
 
+.play-btn:hover span {
+  left: 10px;
+  transition-delay: .2s;
+}
+
 .play-btn span {
   position: relative;
+  left: 0;
   text-transform: uppercase;
   font-size: 0.75rem;
   font-family: EurostileNextPro-Bold;
   font-weight: normal;
   font-style: normal;
+  transition-delay: .2s;
 }
 
 .play-btn .play-circle {
