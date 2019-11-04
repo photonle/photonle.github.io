@@ -131,6 +131,11 @@ a {
   display: flex;
   flex-direction: row;
   align-items: center;
+  transition: 1s cubic-bezier(.23,1,.32,1);
+}
+
+.play-btn:hover {
+  transition: 1s cubic-bezier(.23,1,.32,1);
 }
 
 .play-btn span {
@@ -156,7 +161,7 @@ a {
   top: 0;
   width: 100%;
   height: 100%;
-  background-image: url('./img/icons/play.svg');
+  background-image: url('../img/icons/play.svg');
   background-size: 8px;
   background-position: center;
   background-repeat: no-repeat;
