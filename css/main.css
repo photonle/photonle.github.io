@@ -37,6 +37,11 @@
 body {
   font-family: EurostileNextPro-ExtBold;
   font-size: 16px;
+  color: #FFF;
+}
+
+a {
+  text-decoration: none;
 }
 
 
@@ -51,9 +56,16 @@ body {
   justify-content: center;
 }
 
+.logo {
+  font-family: EurostileNextPro-ExtBold;
+  font-size: 2rem;
+  text-transform: uppercase;
+}
+
 
 
 /*   WRAPPER   */
 .wrapper {
+  width: 100%;
   padding: 0 8%;
 }
