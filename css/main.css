@@ -127,8 +127,8 @@ a {
 /*   GRID   */
 .grid-hero-2col {
   display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-column-gap: 4rem;
+  grid-template-columns: auto 1fr;
+  grid-column-gap: 6rem;
 }
 
 
@@ -148,6 +148,13 @@ a {
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
+}
+
+.hero-bg p {
+  max-width: 500px;
+  margin-top: 3rem;
+  line-height: 1.5rem;
+  opacity: .5;
 }
 
 .heading {
