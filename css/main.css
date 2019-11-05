@@ -19,6 +19,8 @@ h2 {
 }
 
 .sub-head {
+  position: relative;
+  top: 0;
   font-family: EurostileNextPro-SemiBold;
 	font-weight: normal;
 	font-style: normal;
@@ -31,6 +33,7 @@ a {
   text-decoration: none;
   cursor: pointer;
 }
+
 
 
 
@@ -143,6 +146,10 @@ a {
   margin-bottom: 3rem;
 }
 
+.hero-contain:hover .sub-head {
+  top: -20px;
+}
+
 .plus-icon {
   position: relative;
   width: 30px;
@@ -200,6 +207,7 @@ a {
   position: relative;
   left: 0;
   text-transform: uppercase;
+  color: #FFF;
   font-size: 0.75rem;
   font-family: EurostileNextPro-Bold;
   font-weight: normal;
