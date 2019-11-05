@@ -108,6 +108,10 @@ a {
   padding: 0 8%;
 }
 
+.wrapper-heading {
+  width: fit-content;
+}
+
 .nav-wrapper {
   display: flex;
   align-items: center;
@@ -177,6 +181,7 @@ a {
 
 .play-btn {
   position: relative;
+  width: fit-content;
   display: flex;
   flex-direction: row;
   align-items: center;
