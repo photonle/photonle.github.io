@@ -156,7 +156,7 @@ a {
   max-width: 500px;
   margin-top: 3rem;
   line-height: 1.5rem;
-  opacity: .5;
+  opacity: 0;
 }
 
 .heading {
@@ -173,9 +173,9 @@ a {
   padding: 1rem 0 3rem 0;
 }
 
-.hero-contain:hover .hero-bg p {
+.hero-contain:hover ~ p {
   top: -20px;
-  opacity: 1;
+  opacity: .5;
 }
 
 .hero-contain:hover .sub-head {
@@ -298,3 +298,6 @@ a {
 
 
 /*   ATOMIC   */
+.order2 {
+  order: 2;
+}
