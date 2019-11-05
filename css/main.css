@@ -196,7 +196,7 @@ a {
   transition-delay: .2s;
 }
 
-.hero-contain:hover .hading .plus-icon {
+.hero-contain:hover .heading .plus-icon {
   background-size: 0;
 }
 
