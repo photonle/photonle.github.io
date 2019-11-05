@@ -27,6 +27,7 @@ h2 {
   text-transform: uppercase;
   font-size: 1.25rem;
   line-height: 2rem;
+  transition: 1s cubic-bezier(.23,1,.32,1);
 }
 
 a {
@@ -140,6 +141,8 @@ a {
 }
 
 .heading {
+  position: relative;
+  top: 0;
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -148,6 +151,12 @@ a {
 
 .hero-contain:hover .sub-head {
   top: -20px;
+  transition-delay: .2s;
+}
+
+.hero-contain:hover .heading {
+  top: -20px;
+  transition-delay: .4s;
 }
 
 .plus-icon {
