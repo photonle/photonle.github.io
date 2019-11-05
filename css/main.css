@@ -147,14 +147,22 @@ a {
   flex-direction: row;
   align-items: center;
   margin-bottom: 3rem;
+  transition: 1s cubic-bezier(.23,1,.32,1);
 }
 
-.hero-contain:hover .sub-head, .hero-contain:hover .heading {
+.hero-contain:hover .sub-head {
   top: -20px;
+  transition-delay: .2s;
 }
 
-.hero-contain:hover > .play-btn {
+.hero-contain:hover .heading {
   top: -20px;
+  transition-delay: .3s;
+}
+
+.hero-contain:hover ~ .play-btn {
+  top: -20px;
+  transition-delay: .4s;
 }
 
 .plus-icon {
@@ -261,10 +269,3 @@ a {
 
 
 /*   ATOMIC   */
-.tdp2 {
-  transition-delay: .2s;
-}
-
-.tdp3 {
-  transition-delay: .3s;
-}
